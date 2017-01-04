@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ ! -d /tmp/ansible ]; then
-  echo "ansible directory not present please run container with -v \$PDW:/tmp/ansible"
+  echo "Ansible directory not present please run container with -v \$PDW:/tmp/ansible"
   exit 1
 fi
 
